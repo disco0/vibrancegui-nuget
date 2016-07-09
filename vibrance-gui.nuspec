@@ -1,17 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>vibrance-gui</id>
-    <title>vibrance-gui (Install)</title>
+    <id>vibrancegui</id>
+    <title>VibranceGUI</title>
     <version>2.0.0.0</version>
     <authors>https://github.com/juvlarN/vibranceGUI/graphs/contributors</authors>
     <owners>https://github.com/2m</owners>
     <summary>Automates vibrance/saturation control for CSGO</summary>
-    <description>VibranceGUI is a Windows Utility written in C# that automates NVIDIAs Digitial Vibrance Control and AMDs Saturation for Counter-Strike: Global Offensive by utilizing native graphic card driver APIs.</description>
-    <projectUrl>https://github.com/juvlarN/vibranceGUI</projectUrl>
+    <description>VibranceGUI is a Windows Utility written in C# that automates NVIDIAs Digitial Vibrance Control and AMDs Saturation for Counter-Strike: Global Offensive by utilizing native graphic card driver APIs. Note that laptop graphic cards are not supported.</description>
+    <projectUrl>http://vibrancegui.com/</projectUrl>
+    <projectSourceUrl>https://github.com/juvlarN/vibranceGUI</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/juvlarN/vibranceGUI/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/2m/vibrance-gui-nuget</packageSourceUrl>
     <tags>vibrance saturation csgo</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/juvlarN/vibranceGUI/17d8bfac5750e425b66a5f90dbb780a3e8039386/vibrance.GUI/setting.ico</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

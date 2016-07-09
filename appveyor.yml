@@ -7,7 +7,7 @@ test_script:
 - ps: >-
     choco pack
 
-    choco install vibrance-gui -s "$pwd" -f
+    choco install vibrancegui -s "$pwd" -f
 deploy:
 - provider: Local
   on:
@@ -16,4 +16,4 @@ after_deploy:
 - ps: >-
     choco apikey -k $env:choco_api_key -source https://chocolatey.org/
 
-    choco push vibrance-gui.2.0.0.0.nupkg -s https://chocolatey.org/
+    choco push vibrancegui.2.0.0.0.nupkg -s https://chocolatey.org/
