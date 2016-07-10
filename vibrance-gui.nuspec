@@ -11,7 +11,7 @@
     <projectUrl>http://vibrancegui.com/</projectUrl>
     <projectSourceUrl>https://github.com/juvlarN/vibranceGUI</projectSourceUrl>
     <bugTrackerUrl>https://github.com/juvlarN/vibranceGUI/issues</bugTrackerUrl>
-    <packageSourceUrl>https://github.com/2m/vibrance-gui-nuget</packageSourceUrl>
+    <packageSourceUrl>https://github.com/2m/vibrancegui-nuget</packageSourceUrl>
     <tags>vibrance saturation csgo</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/juvlarN/vibranceGUI/17d8bfac5750e425b66a5f90dbb780a3e8039386/vibrance.GUI/setting.ico</iconUrl>
